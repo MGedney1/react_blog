@@ -12,6 +12,9 @@ const About = () => {
                 <h2>
                     About
                 </h2>
+                <p>
+                    Testing
+                </p>
             </body>
         </div>
     )
