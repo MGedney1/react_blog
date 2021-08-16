@@ -9,6 +9,7 @@ import {
 
 import Home from './pages/Home';
 import About from './pages/About';
+import Post from './pages/Post';
 
 const App = () => {
   return (
@@ -33,6 +34,9 @@ const App = () => {
           </Route>
           <Route path="/">
             <Home />
+          </Route>
+          <Route path="/post">
+            <Post />
           </Route>
         </Switch>
       </div>

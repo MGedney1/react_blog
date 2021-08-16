@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -12,6 +13,10 @@ const Home = () => {
                 <h2>
                     Home
                 </h2>
+                <div>
+                    <h4>Post 1</h4>
+                    <Link to="/post">Post</Link>
+                </div>
             </body>
         </div>
     )
